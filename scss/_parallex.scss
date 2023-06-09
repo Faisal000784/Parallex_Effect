@@ -1,0 +1,48 @@
+// Header 
+
+.img_container-1 {
+    background-image: url(../img/house-6.jpeg);
+    @include parallex-bg-img(100vh);
+}
+
+// About 
+
+
+.parallax {
+    @include parallex-bg-img;
+}
+
+.about-img {
+    background-image: url(../img/gal-3.jpeg);
+}
+
+
+// Services 
+
+.grid-img-1 {
+    background-image: url(../img/gal-3.jpeg);
+    @include parallex-bg-img(75vh);
+    background-attachment: scroll;
+
+}
+
+.grid-img-2 {
+    background-image: url(../img/gal-12.jpeg);
+    @include parallex-bg-img(75vh);
+    background-attachment: scroll;
+
+}
+
+
+.grid-img-3 {
+    background-image: url(../img/gal-2.jpeg);
+    @include parallex-bg-img(75vh);
+    background-attachment: scroll;
+
+}
+
+#Footer {
+    background-image: url(../img/gal-13.jpeg);
+    @include parallex-bg-img;
+
+}
